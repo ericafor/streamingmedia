@@ -1,0 +1,70 @@
+*{font-family: Arial, Verdana, sans-serif;
+	line-height: 1.5;
+	box-sizing: border-box;
+    text-align: center;
+}
+
+header,footer{
+display: block;
+background-color: #A07178;
+color:white;
+padding: 40px;
+text-align: center;
+}
+
+.audioplayer{
+    z-index: 1;
+    position: relative;
+    margin-bottom: 30;
+}
+
+.overlap, .overlap2, .overlap3, .overlap4, .overlap5{
+    position: relative;
+    margin: -25px;
+    z-index: 1;
+}
+
+#trendingsongsgrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: #E6CCBE;
+}
+
+nav{
+    padding-right: 35px;
+}
+
+body{
+background-color: white;
+}
+
+ul{
+    list-style: none
+}
+
+#curatedplaylists{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: #776274;
+}
+
+#yourplaylists{
+    background-color: #C8CC92;
+}
+
+@media only screen and (max-width: 768px) {
+    #curatedplaylists{
+        display: block;
+    }
+      
+    }
+
+
+    @media only screen and (max-width: 768px) {
+        #trendingsongsgrid{
+            display: block;
+        }
+          
+        }
