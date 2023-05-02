@@ -7,6 +7,11 @@
 
 html{background-color: #020659;}
 
+nav ul{
+    display: flex;
+    justify-content: center;
+
+}
 
 header{
 display: block;
@@ -56,8 +61,11 @@ footer{
 nav li{
     color:white;
     display: block;
-
+    padding-right: 30px;
 }
+
+nav a{
+color: white;}
 
 body{
 background-color: white;
