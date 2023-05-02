@@ -1,12 +1,13 @@
-*{font-family: Arial, Verdana, sans-serif;
+*{font-family: Verdana, Geneva, Tahoma, sans-serif;
 	line-height: 1.5;
 	box-sizing: border-box;
     text-align: center;
+    background-color: #020659;
 }
 
 header,footer{
 display: block;
-background-color: #A07178;
+
 color:white;
 padding: 40px;
 text-align: center;
@@ -26,8 +27,8 @@ text-align: center;
 
 #trendingsongsgrid{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
     background-color: #E6CCBE;
 }
 
@@ -47,11 +48,18 @@ ul{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    background-color: #776274;
+    
 }
 
+h2{color:white;}
+
+h3{color:white;}
+
+h4{color:white;}
+
 #yourplaylists{
-    background-color: #C8CC92;
+    background-color: #2669FB;
+    color: white;
 }
 
 @media only screen and (max-width: 768px) {
