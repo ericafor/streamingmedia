@@ -2,12 +2,15 @@
 	line-height: 1.5;
 	box-sizing: border-box;
     text-align: center;
-    background-color: #020659;
+    
 }
+
+html{background-color: #020659;}
+
 
 header,footer{
 display: block;
-
+background-color: #030A8C;
 color:white;
 padding: 40px;
 text-align: center;
@@ -29,7 +32,7 @@ text-align: center;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
-    background-color: #E6CCBE;
+    background-color: white;
 }
 
 nav{
@@ -44,11 +47,8 @@ ul{
     list-style: none
 }
 
-#curatedplaylists{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    
+.curatedplaylists{
+    background-color: #030A8C;
 }
 
 h2{color:white;}
@@ -57,10 +57,27 @@ h3{color:white;}
 
 h4{color:white;}
 
-#yourplaylists{
+
+
+.grid-container-element { 
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+
+    border: 1px solid black; 
+    width: 100;
+} 
+
+.grid-childOne{ 
     background-color: #2669FB;
     color: white;
 }
+.grid-childTwo{ 
+
+    padding-bottom: 500px;
+    background-color: #020873;
+}
+
+
 
 @media only screen and (max-width: 768px) {
     #curatedplaylists{
