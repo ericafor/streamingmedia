@@ -8,13 +8,31 @@
 html{background-color: #020659;}
 
 
-header,footer{
+header{
 display: block;
 background-color: #030A8C;
 color:white;
 padding: 40px;
-text-align: center;
+text-align: left;
 }
+
+#smoothJazz{
+
+    background-color: #030A8C;
+    color: white;
+}
+
+h1{
+    text-align: left;
+}
+
+footer{
+    display: block;
+    background-color: #030A8C;
+    color:white;
+    padding: 40px;
+    text-align: center;
+    }
 
 .audioplayer{
     z-index: 1;
@@ -35,8 +53,10 @@ text-align: center;
     background-color: white;
 }
 
-nav{
-    padding-right: 35px;
+nav li{
+    color:white;
+    display: block;
+
 }
 
 body{
@@ -52,8 +72,9 @@ ul{
 }
 
 h2{color:white;}
+h3{color: #590242}
 
-h3{color:white;}
+
 
 h4{color:white;}
 
@@ -75,6 +96,7 @@ h4{color:white;}
 
     padding-bottom: 500px;
     background-color: #020873;
+    color: white;
 }
 
 
